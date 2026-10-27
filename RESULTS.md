@@ -1,7 +1,7 @@
 # K6 lab results
 
 ## Part 0
-- Step 0.1, http_req_duration:
+- Step 0.1, http_req_duration: 328.63 ms (1 request, so avg = min = med = max = p(90) = p(95) = 328.63 ms). checks_succeeded 100.00% (1 out of 1), http_reqs 1, iterations 1.
 - Step 0.2, requests, rate and p(95), and why the rate stays below 5:
 - Step 0.6, exit code of the normal run and of the run with P95=300:
 - Step 0.7, rules that passed, p(95), p(99), exit code after your change:
